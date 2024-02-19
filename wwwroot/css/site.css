@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a, li, figcaption, th, td, label, input {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+}
+
+.masthead {
+    height: 100vh;
+    width: 100%;
+}
+
+    .masthead div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .masthead div h1 {
+            font-size: 4em;
+            color: #fff;
+            text-align: center;
+        }
+
+.form-row {
+    padding: 5%;
+}
+
+
+.submit-message {
+    text-align: center;
+}
